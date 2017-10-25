@@ -51,15 +51,5 @@ p + p {
 
 li {
   text-align: left;
-  /*width: 50%;*/
   margin: 0 auto;
-}
-dream-description::before {
-  font-family: Georgia, serif;
-  position: absolute;
-  font-size: 6em;
-  line-height: 1;
-  top: 0;
-  left: 0;
-  content: "here"
 }
