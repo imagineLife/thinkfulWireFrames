@@ -5,18 +5,21 @@
       <title>HTML wireframe</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="float-grid.css">
       <link rel="stylesheet" type="text/css" href="speechReport.css">
   </head>
 
   <body>
-    <nav role="navigation">Nav</nav>
+    <nav class="col-12" role="navigation">Nav</nav>
     <main role="main">
-      <header role="banner">
-        <h1>Speech Title</h1>
-      </header>
+      <section  class="col-12" role="banner">
+        <h1 class=>Speech Title</h1>
+        <p><em>[ Image of Orator behind Title ]</em></p>
+      </section>
       
-      <section>
-        <ul><em>Quick Stats</em>
+      <section class="col-6">
+        <h3>Quick Stats</h3>
+        <ul>
           <li>Orator: </li>
           <li>Date: </li>
           <li>Audience: </li>
@@ -24,24 +27,24 @@
         </ul>
       </section>      
 
-      <section>
+      <section class="col-6">
         <h3>Most Common Words</h3>
         <p><em>[Small Placeholder Graph: Most common words (top 10)]</em>]</p>
       </section>
       
-      <section>
+      <section class="col-6">
         <h3>Largest Words</h3>
         <p><em>[Small Placeholder Graph: Largest words (top 10)]</em>]</p>
       </section>
 
-      <section>
+      <section class="col-6">
         <h3>Words Per Minute</h3>
         <p><em>[Small Placeholder Graph: Largest words (top 10)]</em>]</p>
       </section>
 
 
     </main>
-    <footer role="content-info">Footer</footer>
+    <footer class="col-12" role="content-info">Footer</footer>
   </body>
 
 </html>

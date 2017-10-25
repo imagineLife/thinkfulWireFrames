@@ -36,9 +36,6 @@ section {
   background-color: #bbb;
 }
 
-section:nth-child(even) {
-  background-color: #ddd;
-}
 
 p {
   margin: 0 auto;
