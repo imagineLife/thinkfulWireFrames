@@ -82,6 +82,7 @@ section:nth-child(even) {
 
   h1{
     margin:125px;
+    font-size: 3em;
   }
 
   h3{

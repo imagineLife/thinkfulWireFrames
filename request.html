@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>Request-a-Speech</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="float-grid.css">
+      <link rel="stylesheet" type="text/css" href="speechReport.css">
+  </head>
+
+  <body>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+      <header>
+        <h1>Request A Speech</h1>
+        <p>What speech are you interested in seeing analytics for?</p>
+      </header>
+      <section>
+        <form id="request">
+          <div class="form-section">
+            
+            <label for="Orator">Orator :
+              <input type="text" name="Orator" id="Orator" placeholder="Count Dracula" required>
+            </label>
+
+            <label for="speechText">Speech Text :
+              <textarea name="speechText" id="speechText" rows="15" placeholder="four score and seven years ago..."></textarea>
+            </label>
+
+          </div>
+
+          <button type="submit">Request This Speech</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+  </body>
+
+</html>
