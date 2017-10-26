@@ -48,3 +48,7 @@ p {
 p + p {
   margin-top: 15px;
 }
+
+table {
+  margin: 0 auto;
+}

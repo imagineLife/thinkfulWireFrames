@@ -89,4 +89,8 @@ section:nth-child(even) {
     margin:45px;
   }
 
+  td{
+    padding:10px;
+  }
+
 }
